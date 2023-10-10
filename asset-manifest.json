@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/parse-demo/static/css/main.a62f9c0c.css",
+    "main.js": "/parse-demo/static/js/main.e924f81b.js",
+    "index.html": "/parse-demo/index.html",
+    "main.a62f9c0c.css.map": "/parse-demo/static/css/main.a62f9c0c.css.map",
+    "main.e924f81b.js.map": "/parse-demo/static/js/main.e924f81b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a62f9c0c.css",
+    "static/js/main.e924f81b.js"
+  ]
+}
