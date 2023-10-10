@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
+import { useParse } from './hooks/useParse'; 
 
 function App() {
   const [address, setAddress] = useState("");
-
+  const parseHook = useParse();
 
   return (
     <div className="App">
@@ -14,7 +15,9 @@ function App() {
               type="text"
               style={{width: "340px"}} 
             />
-            <button>
+            <button
+              onClick={() => {parseHook(address)}}
+            >
                 parse
             </button>
       </header>
